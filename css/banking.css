@@ -1,0 +1,50 @@
+.center {
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 50%;
+  margin-bottom: 40%;
+}
+.table1 {
+  background-color: #7f9992;
+}
+.head1{
+  background-color: maroon;
+  color: white;
+}
+.body1{
+  background-color: #5871ad;
+
+}
+.thead1{
+  color: blue;
+}
+.col1{
+  color: blue;
+}
+.title1{
+  color: green;
+  text-align: left;
+}
+.header1{
+  color: #ff5100;
+}
+.label1{
+  color: #0920e8;
+}
+.margin1{
+  margin-left: 10px;
+  margin-top: 10px;
+  margin-bottom: 30px;
+
+}
+.margin2{
+  margin-left: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.padding1{
+  padding: 10px;
+}
+.input1{
+  background-color: #ccc5b4;
+}

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Banking site</title>
+    <link rel="stylesheet" href="css\bootstrap.min.css" href="../css/banking.css">
+    <link rel="stylesheet" href="../css/banking.css">
+    <script>
+    function showCustomers() {
+      document.getElementById('btn_id').style.display='none';
+    var xmlhttp = new XMLHttpRequest();
+    xmlhttp.onreadystatechange = function() {
+      if (this.readyState == 4 && this.status == 200) {
+        document.getElementById("txtHint").innerHTML = this.responseText;
+      }
+    };
+    xmlhttp.open("GET","scripts/banking.php",true);
+    xmlhttp.send();
+  }
+  </script>
+  </head>
+  <body class="body1">
+    <div class="text-center display-3 head1">
+      <h1>Basic Banking System</h1>
+    </div>
+<form class="" action="" method="post">
+  <input type="button" id="btn_id"value="Show all customers" class=" bg-primary btn-lg btn-block  " onclick="showCustomers()">
+</form>
+<div class="table1"  text-info" id="txtHint">
+
+</div>
+  </body>
+</html>
